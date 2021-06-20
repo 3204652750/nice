@@ -1,0 +1,175 @@
+/* 轮播图 */
+.banner{
+   height: 490px;
+   width: 1520px;
+   background-color: rgba(209, 74, 40, 0.123);
+   top: 69px;
+   position: relative;
+   z-index: -1;
+}
+.banner ul li{    
+    left:50%;
+    margin-left: -505px;  
+    position: absolute; 
+    display: none;
+    
+}
+.banner ul li a img{
+    width: 1010px;
+    height: 490px;
+}
+.banner ul li.xianshi{
+    display: block;
+}
+.banner .btns{
+    width: 90px;
+    height: 50px;
+    position: relative;
+    right: 0;
+    top:470px;
+    height: 4px;
+    left: 50%;
+    margin-left: -45px;
+}
+.banner .btns ol li{
+    width: 20px;
+    float: left;
+    height: 4px;
+    background-color: #F2F2F2;
+    margin: 5px;
+    cursor: pointer;
+}
+.banner .btns ol li.cur{
+    background-color: #C78A49;
+}
+/* 结束 */
+/* 推荐 */
+.new .title{
+    text-align: center;
+    padding: 45px 0 18px 0;
+}
+.new .title h3{
+    line-height: 50px;
+    font-size: 25px;
+    font-weight: 800;
+    color: #3f3f3f;
+}
+.new .title p{
+    font-size: 17px;
+    line-height: 20px;
+    color: rgb(134, 120, 120);
+}
+.new .zp{
+    height: 400px;
+    padding-left: 150px;
+}
+.new .zp li{
+    float: left;
+    height: 390px;
+    width: 250px;
+    padding: 0 20px;
+}
+.new .zp h4{
+    line-height: 25px;
+    font-size: 15px;
+    font-weight: 700;
+    color: #3f3f3f;
+    padding: 0 10px;
+}
+.new .zp p{
+    font-size: 13px;
+    line-height: 15px;
+    color: rgb(83, 75, 75);
+    padding: 0 10px;
+}
+.new .zp li a img{
+    height:375px;
+    width :250px;
+}
+.new .shiting{
+    height: 300px;
+}
+.new .shiting li{
+    float: left;
+    height: 150px;
+    width: 250px;
+    padding: 72.9px 20px 0 20px;
+}
+.new .shiting .bofang_1{
+    width:125px;
+    height: 20px;
+    background: url(../img/bofang1.png) black no-repeat  0 center;
+    color:white;
+    text-align: right;
+    position: relative; 
+    bottom:15px;
+    left: 135px;
+}
+.new .shiting .bofang_2{
+    width:175px;
+    height: 20px;
+    background: url(../img/bofang1.png) black no-repeat  0 center;
+    color:white;
+    text-align: right;
+    position: relative; 
+    bottom:15px;
+    left: 86px;
+}
+.new .shiting a img{
+    height: 150px;
+    width: 250px;
+}
+.new .shiting .bofang_3{
+    width:140px;
+    height: 20px;
+    background: url(../img/bofang1.png) black no-repeat  0 center;
+    color:white;
+    text-align: right;
+    position: relative; 
+    bottom:15px;
+    left: 123px;
+}
+.new .shiting a div:hover{
+    background: url(../img/bofang2.png) black no-repeat  0 center;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+.new .shiting .tou{
+    width: 200px;
+    height: 266.8px;
+    float: left;
+    padding: 10px 40px 15px 100px;
+}
+.new{
+    background: url(../img/beijing.jpg);
+    background-size: cover;
+}
+
+.new .yule li{
+    float: left;
+    width: 240px;
+    height: 561px;
+    padding: 40px 10px;
+}
+.new .yule li img{
+    width: 220px;
+    height: 516px;
+}
+.new .yule li img:hover{
+    padding-top: 20px;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+.new .fuzhu{
+    width: 100%;
+    height: 100px;
+    background-color: #c78b4b98;
+}
+.di{
+    position: relative;
+    top: 250px;
+    width: 100%;
+    height: 632px;
+    background-image: url(../img/di.png);
+    z-index: -1;
+}

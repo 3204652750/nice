@@ -1,0 +1,55 @@
+.content{
+    padding-top: 70px;
+}
+.con{
+   width: 1120px; 
+   background-color: rgb(29, 31, 33); 
+   border-radius: 5px;
+   height: 2000px;
+   position: relative;
+}
+
+.content .br{
+    color: #555;
+    font-size: 17px;
+    background-color: white;
+    padding-left: 15px;
+    padding-top: 20px;
+    line-height: 30px;
+    border-bottom: 1px solid rgb(190, 176, 176);
+}
+.content .con .title-1{
+    height: 50px;
+    background-color: rgba(156, 76, 76, 0.377);
+    width: 100px;
+    margin: 2px 50%;
+    font-size: 20px;
+    font-weight:bold;
+    color:white;
+    line-height: 45px;
+    text-align: center;
+    border-radius: 10px;
+}
+.content .con .picture-1{
+    width: 300px;
+    height: 247px;
+    margin: 5px 10px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    overflow: hidden;
+    text-align: left;
+    background-color:rgb(46,49,53);
+    position: absolute;
+    left: 0px;
+    top: 52px;
+    
+}
+.content .con .picture-1:hover{
+    border: 2px rgba(248, 245, 245, 0.301) solid;
+    transition: 0.3;
+}
+.content .con .picture-1 p{
+    margin: 10px 0 10px 2px;
+    flex-wrap: wrap;
+    color: white;
+}

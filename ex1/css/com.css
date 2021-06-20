@@ -1,0 +1,184 @@
+.inner_c{ 
+    width: 1300px;
+    margin:0 auto;
+}
+a{
+    text-decoration: none;
+    color: indianred;
+}
+/* header */
+.header{
+    height: 68px;
+    line-height: 68px;
+    width: 100%; 
+    border-bottom: 1px solid #e2e2e2;
+    box-shadow: 2px 0px 2px 2px  rgba(0,0,0,0.4);
+    position:fixed;
+    top: 0;
+    background-color: white;
+}
+/* .header .header_1{
+    
+} */
+.header .header_1 h1{
+   height: 68px;
+   width: 140px;
+   padding: 0 15px;
+   float: left;
+}
+.header .header_1 h1 a{
+    display: block;
+    text-indent: -100em;
+    overflow: hidden; 
+    background: url(../img/logo.png) ;
+    background-size: 140px 64px;  
+
+}
+.header .header_1 .header_2{
+    width: 168px;
+    height: 100%;
+    float: left;    
+    text-align:center;
+} 
+.header .header_1 .header_2:hover{
+    background-color: lightblue;
+    cursor: pointer;    
+}
+#list{
+    list-style: none; 
+    /* background-color: rgb(170, 26, 26);  */
+    text-align:center;
+    width: 168px;
+    height: 30px;   
+    position:absolute;
+    top:-500px; 
+    /* color: rgba(255, 255, 255, 0.562); */
+    
+}
+.header .header_1 .header_2 ul ul li{
+    background-color: rgba(216, 185, 172, 0.205);
+} 
+#text:hover ~#list{
+    top:69px;
+    transition-duration: 0.5s;        
+}
+#list:hover{
+    top: 68px;
+    cursor: pointer;
+}
+ .header .header_1 .header_2 ul ul li:hover /*.list-1:hover,.list-2:hover,.list-3:hover,.list-4:hover,.list-5:hover,.list-6:hover*/{ 
+    background-color: rgba(255, 255, 0, 0.726);
+    cursor: pointer;
+}
+b{
+    border-style: solid;
+    border-width: 5px;
+    border-color: rgb(32, 31, 31) transparent transparent transparent;
+    position:relative;
+    top: 12px; 
+}
+.header .header_1 .header-nav{
+    float: left;
+}
+.header .header_1 .header-nav ul li {
+    float: left;
+}
+.header .header_1 .header-nav ul li a{
+    display: block;
+    padding: 0 28px;
+}
+.header .header_1 .header-nav ul li  a:hover{
+    background-color: lightblue;
+}
+.header .header_1 .search{
+    width: 190px;
+    height: 68px;
+    background-color: lightblue;
+    float: left;
+    background: url(../img/搜索.png) no-repeat center right;
+    margin-left:60px;
+}
+.header .header_1 .login{
+    float: right;
+}
+.header .header_1 .login a{
+    padding:0 7px;
+}
+.header .header_1 .login span{
+    padding: 0 4px;
+}
+.header .header_1 .login .gwc{
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 34px;
+    background: url(../img/购物车.png) no-repeat left center;
+    cursor: pointer;
+}
+.header .header_1 .login .gwc:hover .gwc-1{
+    display: block;
+
+}
+.header .header_1 .login .gwc .gwc-1{
+    position: absolute;
+    width:230px;
+    background-color: #F2F2F2;
+    border-radius: 4px;
+    right: 40px;
+    top: 70px;
+    padding: 10px;
+    border: 1px solid #DDDDDD;
+    display: none;
+    text-align: center;
+}
+.header .header_1 .login .gwc .gwc-1 .gwc-1-2{
+    line-height: 58px;
+    font-size: 12px;
+    font-weight: 700;
+}
+.header .header_1 .login .gwc .gwc-1 .gwc-1-2 span{
+    color: red;
+}
+.header .header_1 .login .gwc .gwc-1 .buttom{
+    background: #C78A49;
+    color: white;
+    font-size: 16px;
+    border-radius: 2px;
+    line-height: 44px ;
+}
+/* 导航栏结束 */
+.fix-top{
+    width: 50px;
+    bottom: 150px;
+    right: 20px;
+    position: fixed;
+    color: white;
+
+}
+.fix-top p{
+    height: 30px;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+    background: rgba(0,0,0,0.4);
+    margin-bottom: 10px;
+}
+.fix-top .qq{
+    line-height: 27px;
+}
+.fix-top .wx{
+    font-size: 15px;
+}
+.fix-top .top{
+    font-size: 25px;
+    font-family: serif;
+    line-height: 25px;
+}
+.fix-top .wx img{
+    position:absolute;
+    right: 70px;
+    bottom: 5px;
+    display: none;
+}
+.fix-top .wx:hover img{
+    display: block;
+}
