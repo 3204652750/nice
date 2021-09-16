@@ -1,0 +1,76 @@
+.content{
+    padding-top: 70px;
+}
+.con{
+   width: 1120px; 
+   background-color: rgb(29, 31, 33); 
+   border-radius: 5px;
+   height: 6400px;
+   padding: 0 15px;
+  
+}
+
+.content .br{
+    color: #555;
+    font-size: 17px;
+    background-color: white;
+    padding-left: 15px;
+    padding-top: 20px;
+    line-height: 30px;
+    border-bottom: 1px solid rgb(190, 176, 176);
+}
+.content .con .title-1{
+    height: 50px;
+    background-color: rgba(156, 76, 76, 0.377);
+    width: 100px;
+    margin: 2px 50%;
+    font-size: 20px;
+    font-weight:bold;
+    color:white;
+    line-height: 45px;
+    text-align: center;
+    border-radius: 10px;
+}
+/* 瀑布流布局 */
+.content .con .pic{
+    column-count: 4; 
+    margin-top: 10px;
+    z-index: -1;
+}
+.content .con .picture{
+    background-color:rgb(46,49,53); 
+    margin-bottom: 15px;
+    position: relative;
+   
+    counter-increment: item-counter;
+
+}
+.content .con .picture img{
+    width: 100%;
+}
+.content .con .picture::after{
+    position: absolute;
+    display: block;
+    top: 2px;
+    left: 2px;
+    width: 24px;
+    height: 24px;
+    text-align: center;
+    line-height: 24px;
+    background-color: rgba(109, 76, 76, 0.712);
+    color: #fff;
+    border-radius: 50%;
+    content: counter(item-counter);
+}
+.content .con .picture p{
+    padding: 10px 0 10px 2px;
+    flex-wrap: wrap;
+    color: white;
+    display: inline-flex;
+}
+.content .con .picture:hover{
+    border: 2px rgba(248, 245, 245, 0.301) solid;
+    transition: 0.3;
+}
+
+/* 瀑布流布局结束 */
